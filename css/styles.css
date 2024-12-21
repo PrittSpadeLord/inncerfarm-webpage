@@ -30,6 +30,20 @@
 
 .top-navbar-element {
     width: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;    
+    color: white;
+}
+
+.top-navbar-element:hover {
+    background-color: #30c985;
+}
+
+.top-navbar-element:active {
+    color: #30c985;
+    background-color: white;
 }
